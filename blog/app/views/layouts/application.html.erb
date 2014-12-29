@@ -7,6 +7,28 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div id="sidebar">
+		<div id="logo">
+			<%= link_to root_path do %>
+				<%= image_tag "logo.jpg" %>
+			<% end %>
+		</div>
+
+		<ul>
+			<li class="category">Website</li>
+			<li><%= link_to "Blog", root_path %></li>
+			<li>About</li>
+		</ul>
+
+		<ul>
+			<li class="category">Social</li>
+			<li><a href="https://twiter.com">Twitter</a></li>
+			<li><a href="https://github.com/em01">Github</a></li>
+			<li><a href="https://linkedin.com/pub/emma-williams/42/b6a/448">Linkedin</a></li>
+			<li><a href="mailto:github@em01.co.uk">Email</a></li>	
+		</ul>
+	</div>
+	</div>
 
 <%= yield %>
 
