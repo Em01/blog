@@ -1,5 +1,5 @@
 #Blog-A personal blog for myself
-![](screenshotone.png?raw=true)
+![](screenshot1.png?raw=true)
 ![](screenshottwo.png?raw=true)
 
 
