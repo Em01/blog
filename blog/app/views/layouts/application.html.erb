@@ -3,6 +3,7 @@
 <head>
   <title>Blog</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+   <%= stylesheet_link_tag 'application', 'http://fonts.googleapis.com/css?family=Raleway:400,700' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
@@ -10,7 +11,7 @@
 	<div id="sidebar">
 		<div id="logo">
 			<%= link_to root_path do %>
-				<%= image_tag "logo.jpg" %>
+				<%= image_tag "logo2.jpg" %>
 			<% end %>
 		</div>
 
@@ -27,6 +28,8 @@
 			<li><a href="https://linkedin.com/pub/emma-williams/42/b6a/448">Linkedin</a></li>
 			<li><a href="mailto:github@em01.co.uk">Email</a></li>	
 		</ul>
+
+		<p class="sign_in">Admin Login</p>
 	</div>
 	</div>
 
